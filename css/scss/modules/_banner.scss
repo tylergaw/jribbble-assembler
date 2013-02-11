@@ -1,7 +1,7 @@
 [role=banner] {
-    background-color: rgba(#ff00a2, 0.11);
+    background-color: rgba(#ff00a2, 0.09);
     position: relative;
-    top: -10em;
+    top: -11em;
 
     &::after {
         background: transparent image-url("divider-black.png") repeat-x left center;
@@ -21,6 +21,6 @@
     overflow: hidden;
     position: relative;
     text-indent: -100em;
-    top: 4.9em;
+    top: 5.3em;
     z-index: 2;
 }
