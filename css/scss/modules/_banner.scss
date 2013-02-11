@@ -1,0 +1,26 @@
+[role=banner] {
+    background-color: rgba(#ff00a2, 0.11);
+    position: relative;
+    top: -10em;
+
+    &::after {
+        background: transparent image-url("divider-black.png") repeat-x left center;
+        content: "";
+        display: block;
+        height: 8px;
+        position: relative;
+        top: 4px;
+        width: 100%;
+    }
+}
+
+.logo {
+    background: transparent image-url("logo.png") no-repeat center top;
+    min-height: 380px;
+    max-width: 611px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -100em;
+    top: 4.9em;
+    z-index: 2;
+}
